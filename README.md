@@ -39,4 +39,12 @@ A collection of docs are an Index. Documents have an ID. Documents have multiple
 
 Indexes appear to be a way to group multiple attributes to later then be searched.
 
-## 
+## AI Section
+
+### Semantic cache
+
+If something had been answered from an LLM, it will cache it so if someone else were to ask the same question or the the same person doing so, it would come from the cache instead of the LLM. First time took around 1.5 seconds while just the cache took 10 milliseconds.
+
+### Semantic routing
+
+Tries to find where to route this question. If the equation is too far from the purpose it could be put into a catch all. "Is this be a question I should be answering?"
